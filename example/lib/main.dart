@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:store_launcher/store_launcher.dart';
+import 'package:store_launcher_nullsafe/store_launcher_nullsafe.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final myController = TextEditingController();
+  late final myController = TextEditingController();
 
   @override
   void dispose() {
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
                     border: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.teal))),
               ),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   openWithStore();
                 },

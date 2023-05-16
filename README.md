@@ -3,15 +3,16 @@
 A Flutter plugin for launching a Store in the mobile platform. Supports AppStore and PlayStore.
 
 ## Usage
+
 To use this plugin, add `store_launcher` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
 
 ### Example
 
-``` dart
+```dart
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:store_launcher/store_launcher.dart';
+import 'package:store_launcher_nullsafe/store_launcher_nullsafe.dart';
 
 void main() => runApp(MyApp());
 

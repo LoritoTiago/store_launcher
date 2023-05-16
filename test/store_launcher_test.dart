@@ -1,9 +1,11 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:store_launcher/store_launcher.dart';
+import 'package:store_launcher_nullsafe/store_launcher_nullsafe.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('store_launcher');
+  const MethodChannel? channel = MethodChannel('store_launcher');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
