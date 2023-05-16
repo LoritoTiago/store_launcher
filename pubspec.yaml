@@ -6,6 +6,8 @@ homepage: https://github.com/heqingbao/store_launcher
 
 environment:
     sdk: '>=2.17.6 <4.0.0'
+    flutter: ">=3.3.0"
+
     
 dependencies:
   flutter:
@@ -27,8 +29,8 @@ flutter:
   plugin:
      platforms:
        android:
-         package: com.heqingbao.flutter.plugin.store_launcher
-         pluginClass: StoreLauncherPlugin
+        package: com.heqingbao.flutter.plugin.store_launcher
+        pluginClass: StoreLauncherPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
